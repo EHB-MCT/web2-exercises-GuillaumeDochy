@@ -1,0 +1,63 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 1em;
+}
+
+.pokemonCard {
+    display: flex;
+    flex-direction: column;
+    width: 7em;
+    height: 8em;
+    margin-right: 5em;
+    margin-left: 2em;
+    margin-bottom: 15em;
+}
+
+.img {
+    width: 150%;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.typeDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.type {
+    margin-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.name {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.teamBtn {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: none;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    cursor: pointer;
+}
