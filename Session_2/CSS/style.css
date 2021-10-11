@@ -28,7 +28,7 @@ h1 {
     flex-direction: row;
 }
 
-.type {
+#type {
     margin-right: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
@@ -60,4 +60,12 @@ h1 {
 
 button {
     cursor: pointer;
+}
+
+.grass {
+    background-color: greenyellow;
+}
+
+.poison {
+    background-color: purple;
 }
