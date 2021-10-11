@@ -1,15 +1,13 @@
-'use strict';
-
-class Team {
-    constructor(teamName) {
-        this.teamName = teamName;
-        this.trainer = 'ash';
-        this.roster = [];
+export default class Team {
+    constructor() {
+        this.teamName = 'Kanto';
+        this.trainer = 'Ash';
+        this.roster = ['Bulbasaur'];
     }
 
     describe() {
-        return `${this.teamName} with trainer ${this.trainer} has these pokemon: ${[...this.roster]}`;
+        return `Team ${this.teamName} with trainer ${this.trainer}
+        has the following pokemon: ${[...this.roster]}`;
     }
-}
 
-export default Team;
+}
