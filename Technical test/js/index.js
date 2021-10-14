@@ -26,19 +26,32 @@ function fetcher() {
 function makeGameCard(data) {
 
     let htmlString = '';
-    let screensHtml = '';
-    let screen = data.short_screenshots;
-    /*
-        screen.forEach(e => {
-            screensHtml += `
-            <img src="${screen.e}">
-            `;
-        });
-    */
+
     data.forEach(e => {
+
+    });
+
+    data.forEach(e => {
+
+        let platform = [];
+
+        e.platforms.forEach(e => {
+            platform.push(` ${e.platform.name}`);
+        });
+
+        console.log(platform);
+
         htmlString += `
-        <p>${e.name}</p>
-        ${screensHtml}
+        <div class="cards">
+            <h3>${e.name}</h3>
+            <img src="${e.background_image}">
+            <h4>Release date:</h4>
+            <p class="release">${e.released}</p>
+            <h4>Ratings:</h4>
+            <p>${e.rating}/${e.rating_top}</p>
+            <h4>Platforms:</h4>
+            <p>${platform}</p>
+        </div>
         `;
     });
 

@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 .title {
@@ -8,5 +8,37 @@
 
 .gameCard {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
     flex-direction: column;
+    width: 15em;
+    padding: 0.5em;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.418) 5px 5px 5px;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+.cards {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cards h4 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.cards p {
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 1em;
 }
