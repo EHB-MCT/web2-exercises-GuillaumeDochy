@@ -43,8 +43,8 @@ function makeGameCard(data) {
 
         htmlString += `
         <div class="cards">
-            <h3>${e.name}</h3>
             <img src="${e.background_image}">
+            <h3>${e.name}</h3>
             <h4>Release date:</h4>
             <p class="release">${e.released}</p>
             <h4>Ratings:</h4>
