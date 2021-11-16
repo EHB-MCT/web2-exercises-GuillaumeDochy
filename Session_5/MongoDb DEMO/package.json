@@ -1,15 +1,14 @@
 {
-  "name": "session_5",
+  "name": "mongodb-demo",
   "version": "1.0.0",
-  "type": "module",
-  "main": "modules.js",
+  "description": "",
+  "main": "demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "mongodb": "^4.1.4"
   }
